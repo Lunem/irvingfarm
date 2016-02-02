@@ -1,0 +1,141 @@
+h1, h2, h3 {
+  font-family: 'Monserrat', sans-serif;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background: url("images/home_main_desktop.jpg") no-repeat center;
+  background-size: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+header i {
+  color: white;
+}
+
+.black-nav{
+  background-color: black;
+  color: white;
+  height: 60px;
+  text-transform: uppercase;
+}
+
+.bl-nav {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.list-inline li {
+  display:inline;
+  margin-left: 20px;
+}
+
+.white-nav {
+}
+
+
+.white-nav ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.white-nav li {
+  display:flex;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  margin: 40px 30px 0 30px;
+}
+
+.white-nav img {
+  width: 150px;
+  margin-bottom: 40px;
+
+}
+
+.container {
+
+}
+
+.stories {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.white-card {
+  margin: 0 30px 0 30px;
+  background-color: white;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+.white-card img {
+  width: 250px;
+}
+
+.white-card p {
+
+  text-align: center;
+  font-size: 14px;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
+.honduras {
+  background-image: url("images/slideshow-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+.wide-white-card {
+  width: 500px;
+  float: right;
+  margin: 0 30px 0 30px;
+  background-color: white;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  margin-top: 45px;
+  margin-right: 80px;
+
+}
+
+.wide-white-card h2, p {
+  padding: 0 30px 0 30px;
+}
+
+.wide-white-card p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 36px;
+}
