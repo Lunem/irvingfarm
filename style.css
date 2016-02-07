@@ -38,6 +38,8 @@ header i {
   background-color: black;
   color: white;
   text-transform: uppercase;
+  font-size: 10px;
+  line-height: 25px;
 }
 
 .bl-nav {
@@ -98,7 +100,7 @@ header i {
 }
 
 .white-card img {
-  width: 250px;
+  width: 280px;
 
 }
 
@@ -117,14 +119,18 @@ header i {
   height: 450px;
 }
 
+.card-left{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 80px;
+}
+
 .wide-white-card {
   width: 500px;
-  float: right;
   background-color: white;
   border-top: 4px solid black;
   border-bottom: 4px solid black;
   margin-top: 45px;
-  margin-right: 80px;
 
 }
 
@@ -138,17 +144,99 @@ header i {
   line-height: 36px;
 }
 
+.card-center {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.card-center img {
+  min-width: 400px;
+  height: 274px;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+
 .wholesale {
- display: flex;
- flex-flow: row nowrap;
-
+  margin-bottom: 40px;
 }
 
-.wholesale .wide-white-card {
-  height: 300px;
+.grey-nav {
+  background-color: #EBEBEB;
+  color: black;
+  font-size: 14px;
 }
 
-.wholesale img {
-  width: 450px;
-  height: 300px;
+.gr-nav {
+  margin: 10px;
+  display: flex;
+  flex-flow: row, nowrap;
+  justify-content: center;
+}
+
+.submit {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.submit input {
+  border: none;
+  height: 50px;
+  background color: white;
+  padding: 0 0 0 15px;
+}
+
+.submit button {
+  border: none;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 0 15px 0 15px;
+}
+
+.raven img {
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.row2 {
+  list-style: none;
+}
+
+.bold-title {
+  font-weight: 700;
+}
+
+.divider {
+  border-top: 1px solid grey;
+  width: 60%;
+  margin: auto;
+}
+
+.credits {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-size: 8px;
+  line-height: 25px;
 }
