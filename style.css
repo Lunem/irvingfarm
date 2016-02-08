@@ -343,17 +343,17 @@ header {
   flex-flow: column;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 20px
+  margin-bottom: 40px
 }
 
 .card-center img {
   width: 450px;
-  height: 280px;
+  height: 300px;
   margin: 0;
 }
 
 .grey-nav {
-  background-color: #ffffff;
+  background-color: #afafaf;
   color: black;
   font-size: 14px;
 }
@@ -389,6 +389,11 @@ header {
   padding: 0 15px 0 15px;
 }
 
+.gr-nav p {
+  font-size: 12px;
+  font-weight: 200;
+}
+
 .raven {
   display: none;
 }
@@ -400,6 +405,7 @@ header {
 }
 
 .col2 {
+  width: 50%;
   flex-direction: column;
   margin-bottom: 30px;
 }
